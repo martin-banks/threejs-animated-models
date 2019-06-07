@@ -9,9 +9,9 @@ const output = path.join(__dirname, `../src/assets/${fileName}.glb`)
 
 convert(input, output, ['--khr-materials-unlit'])
   .then(destPath => {
-    console.log('done')
+    console.log('conversion done')
     console.log(destPath)
   })
   .catch(err => {
-    console.log('---ERROR---\n', err)
+    console.log('--- ERROR ---\n', err)
   })
