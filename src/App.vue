@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <blank msg="Welcome to Your Vue.js App"/>
+    <model-man />
   </div>
 </template>
 
 <script>
-import blank from './components/_blank.vue'
+import ModelMan from './components/model-man.vue'
 
 export default {
   name: 'app',
   components: {
-    blank
+    ModelMan,
   }
 }
 </script>
